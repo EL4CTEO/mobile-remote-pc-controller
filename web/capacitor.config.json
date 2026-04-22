@@ -1,0 +1,13 @@
+{
+  "appId": "com.remotepc.app",
+  "appName": "Remote PC Controller",
+  "webDir": ".",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

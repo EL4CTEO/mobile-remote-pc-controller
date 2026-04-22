@@ -1,0 +1,19 @@
+{
+  "name": "remote-pc-controller",
+  "version": "1.0.0",
+  "description": "Mobile remote PC controller web app",
+  "scripts": {
+    "build": "echo 'Static HTML, no build step needed' && exit 0",
+    "cap:init": "npx cap init remote-pc-controller com.remotepc.app --web-dir .",
+    "cap:add": "npx cap add android",
+    "cap:sync": "npx cap sync",
+    "android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/core": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0"
+  }
+}
